@@ -1,17 +1,18 @@
 import qrcodeprocessing.*;
 //Create and initialize a decoder object:
-
+Decoder decoder;
 PImage img; 
 
 void setup() {
+  decoder=new Decoder(this);
   size(320, 240);
   // Make a new instance of a PImage by loading an image file
   img = loadImage("galanigthub.png");
+  decoder.decodeImage(img);
 }
 
-void draw() {
-  background(0);
-  // The image() function displays the image at a location
-  // in this case the point (0,0).
-  image(img, -1, 0, width, height);
+void decoderEvent(Decoder decoder){
+  String statusMsg= decoder.getDecodedString();
+  println(statusMsg);
+link(statusMsg);
 }

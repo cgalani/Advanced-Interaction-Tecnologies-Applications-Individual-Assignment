@@ -90,8 +90,25 @@ PImage backgroundReplace;//
 
 ![Βίντεο χωρίς τίτλο - Δημιουργήθηκε με το Clipchamp (1)](https://user-images.githubusercontent.com/101428984/209833283-35cf1207-2499-4cd3-8c22-ec99e468e903.gif)
 
+----------------------------------------------------------
+Αρχικά είδα αρκετά βιντεάκια για το πως να χρησιμοποιήσω σωστά το reactVision ταυτόχρονα με το processing.
+Μετά έψαξα για να δω πως μπορώ να καλέσω στον κώδικα εικόνες ανάλογα το id του fiducial.Έπειτα πως να καλέσω τα fiducial με φίλτρα που βρήκα σε ενα σαιτ το παραθέτω στα sources.Δημιούργησα τον κώδικα πάνω στο TUIO DEMO και έκανα τις αλλαγές. Δημιούργησα μοναδικά fiducial id για την κάθε εικόνα , για να εμφανίζονται στο reactVision , απο 0-2 ειναι οι εικόνες που καλώ και απο 3,4,8 ειναι τα φίλτρα.Το 3 ειναι ειναι το φίλτρο invert ,το 4 ειναι το φίλτρο gray ,το 8 ειναι το φίλτρο erode.Ανάλογα ποια εικόνα καλούσα και φιλτρό το αποτέλεσμα άλλαζε.
 
 
+
+
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/101428984/211936522-7d60183f-09a7-497f-980c-cd907784abc3.gif)
+
+
+
+
+![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/101428984/211936536-9b61ac70-4702-406f-97de-d6c880e177ff.gif)
+
+
+
+
+
+![ezgif com-gif-maker (2)](https://user-images.githubusercontent.com/101428984/211936564-e68d1698-92e7-44db-ae24-549301194069.gif)
 
 
 
@@ -104,3 +121,4 @@ PImage backgroundReplace;//
 
 
 # Sources
+https://processing.org/reference/filter_.html
